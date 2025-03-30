@@ -17,8 +17,17 @@ import java.util.*;
 public class MainController {
 
     private final List<String> chains = Arrays.asList(
+            "AspectJWeaver",
+            "BeanShell",
+            "C3P0",
+            "CommonsBeanutils1",
             "CommonsCollections1",
-            "CommonsCollections2"
+            "CommonsCollections2",
+            "CommonsCollections3",
+            "CommonsCollections4",
+            "CommonsCollections5",
+            "CommonsCollections6",
+            "CommonsCollections7"
     );
 
     @GetMapping("/")
@@ -53,6 +62,11 @@ public class MainController {
             throw new RuntimeException(e);
         }
 
+    }
+
+    @GetMapping("/encode")
+    public String showEncode() {
+        return "exec_encode";
     }
 
     @GetMapping("/test")
