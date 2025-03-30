@@ -10,4 +10,7 @@ The front-end fantasy page is purely for college courses to give high scores ðŸ˜
 
 always update~
 
+/encode is needed to fix the issue where sometimes command execution payload Runtime.getRuntime().exec() fails (from Internet)
+
+
 ![calc](https://github.com/user-attachments/assets/ecbe0cba-8a81-4e35-8eb6-a3d7b68819c6)
