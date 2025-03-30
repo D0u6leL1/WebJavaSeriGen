@@ -6,7 +6,7 @@ Please adjust the java version according to the chain 🌞
 
 Disable running web pages on public servers (contain the /test page) 🚫
 
-The front-end fantasy page is purely for school courses to give high scores 😜
+The front-end fantasy page is purely for college courses to give high scores 😜
 
 always update~
 
