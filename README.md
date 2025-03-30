@@ -8,5 +8,6 @@ Disable running web pages on public servers (contain the /test page) 🚫
 
 The front-end fantasy page is purely for school courses to give high scores 😜
 
+always update~
 
 ![calc](https://github.com/user-attachments/assets/ecbe0cba-8a81-4e35-8eb6-a3d7b68819c6)
