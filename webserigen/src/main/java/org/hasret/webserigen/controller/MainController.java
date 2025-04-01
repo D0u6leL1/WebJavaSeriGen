@@ -28,7 +28,8 @@ public class MainController {
             "CommonsCollections4",
             "CommonsCollections5",
             "CommonsCollections6",
-            "CommonsCollections7"
+            "CommonsCollections7",
+            "URLDNS"
     );
 
     @GetMapping("/")

