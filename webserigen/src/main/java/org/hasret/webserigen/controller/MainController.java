@@ -21,6 +21,7 @@ public class MainController {
             "BeanShell",
             "C3P0",
             "CommonsBeanutils1",
+            "CommonsCollections0",
             "CommonsCollections1",
             "CommonsCollections2",
             "CommonsCollections3",
