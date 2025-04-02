@@ -14,4 +14,13 @@ public class serial {
             return Base64.getEncoder().encodeToString(baos.toByteArray());
         }
     }
+    public static void serialize(Object obj) throws IOException {
+        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("ser.bin"));
+        oos.writeObject(obj);
+    }
+    public static Object unserialize(String Filename) throws IOException, ClassNotFoundException {
+        ObjectInputStream ois = new ObjectInputStream(new FileInputStream(Filename));
+        Object o = ois.readObject();
+        return o;
+    }
 }
