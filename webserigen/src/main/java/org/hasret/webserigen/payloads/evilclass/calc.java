@@ -1,5 +1,13 @@
 package org.hasret.webserigen.payloads.evilclass;
 
+/**
+ * 类描述
+ *
+ * @author Double
+ * @version 1.0
+ * @since 2025/4/1
+ */
+
 import com.sun.org.apache.xalan.internal.xsltc.DOM;
 import com.sun.org.apache.xalan.internal.xsltc.TransletException;
 import com.sun.org.apache.xalan.internal.xsltc.runtime.AbstractTranslet;

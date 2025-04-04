@@ -1,6 +1,11 @@
 package org.hasret.webserigen.payloads;
-
-import com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl;
+/**
+ * 类描述
+ *
+ * @author Double
+ * @version 1.0
+ * @since 2025/4/1
+ */
 
 import org.apache.commons.collections.keyvalue.TiedMapEntry;
 import org.apache.commons.collections.map.LazyMap;
@@ -9,17 +14,13 @@ import org.apache.commons.collections.Transformer;
 import org.apache.commons.collections.functors.ChainedTransformer;
 import org.apache.commons.collections.functors.ConstantTransformer;
 import org.apache.commons.collections.functors.InvokerTransformer;
-import org.apache.commons.collections.map.TransformedMap;
 
 import javax.management.BadAttributeValueExpException;
 import java.io.IOException;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.PriorityQueue;
 
 /*
 * BadAttributeValueExpException.readObject()

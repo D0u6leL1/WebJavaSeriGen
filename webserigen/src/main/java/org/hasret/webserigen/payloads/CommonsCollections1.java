@@ -1,5 +1,11 @@
 package org.hasret.webserigen.payloads;
-
+/**
+ * 类描述
+ *
+ * @author Double
+ * @version 1.0
+ * @since 2025/3/29
+ */
 import java.io.*;
 import java.lang.annotation.Target;
 import java.lang.reflect.Constructor;

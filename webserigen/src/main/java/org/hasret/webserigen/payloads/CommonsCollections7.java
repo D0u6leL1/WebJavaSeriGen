@@ -1,4 +1,11 @@
 package org.hasret.webserigen.payloads;
+/**
+ * 类描述
+ *
+ * @author Double
+ * @version 1.0
+ * @since 2025/4/3
+ */
 
 import org.apache.commons.collections.Transformer;
 import org.apache.commons.collections.functors.ChainedTransformer;

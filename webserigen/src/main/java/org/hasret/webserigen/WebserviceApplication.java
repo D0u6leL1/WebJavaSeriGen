@@ -1,5 +1,11 @@
 package org.hasret.webserigen;
-
+/**
+ * 类描述
+ *
+ * @author Double
+ * @version 1.0
+ * @since 2025/3/27
+ */
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

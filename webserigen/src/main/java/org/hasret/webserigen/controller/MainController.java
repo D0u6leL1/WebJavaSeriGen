@@ -1,10 +1,14 @@
 package org.hasret.webserigen.controller;
-
+/**
+ * 类描述
+ *
+ * @author Double
+ * @version 1.0
+ * @since 2025/3/27
+ */
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-
-import org.hasret.webserigen.payloads.*;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
@@ -17,7 +21,6 @@ import java.util.*;
 public class MainController {
 
     private final List<String> chains = Arrays.asList(
-            "C3P0",
             "CommonsBeanutils1",
             "CommonsCollections0",
             "CommonsCollections1",
@@ -27,7 +30,6 @@ public class MainController {
             "CommonsCollections5",
             "CommonsCollections6",
             "CommonsCollections7",
-            "Jackson",
             "URLDNS"
     );
 

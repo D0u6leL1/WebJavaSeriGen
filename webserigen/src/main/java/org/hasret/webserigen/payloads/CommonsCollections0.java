@@ -3,7 +3,13 @@ package org.hasret.webserigen.payloads;
 
 
 //lazymap 这一条  cc1的两种
-
+/**
+ * 类描述
+ *
+ * @author Double
+ * @version 1.0
+ * @since 2025/3/29
+ */
 import org.apache.commons.collections.Transformer;
 import org.apache.commons.collections.functors.ConstantTransformer;
 import org.apache.commons.collections.functors.ChainedTransformer;

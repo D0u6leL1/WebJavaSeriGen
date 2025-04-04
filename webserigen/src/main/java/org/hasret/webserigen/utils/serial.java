@@ -1,5 +1,11 @@
 package org.hasret.webserigen.utils;
-
+/**
+ * 类描述
+ *
+ * @author Double
+ * @version 1.0
+ * @since 2025/3/29
+ */
 import java.io.*;
 import java.util.Base64;
 
